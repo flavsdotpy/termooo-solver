@@ -24,15 +24,13 @@ You pass all the characters (comma separated) that the solution do not have. Ex:
 The included characters option.<br/>
 You pass all the characters (comma separated, in the format `character-position`) that the solution have, but you dont know the exact position. Ex:
 
-`python main.py -i 1-g,4-e`
-
-This may be used together with `-i` option, since you know the character
+`python main.py -i g-1,e-4`
 
 ### `-x`
 
 The included characters option, in the exact position. You pass all the characters (comma separated, in the format `position-character`) that the solution have, but you know the exact position. Ex:
 
-`python main.py -x 1-g,4-e`
+`python main.py -x g-1,e-4`
 
 ## Prerequisites
 
